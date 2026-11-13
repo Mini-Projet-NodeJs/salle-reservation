@@ -39,5 +39,5 @@ jobs:
           cache: npm
           cache-dependency-path: frontend-client/package-lock.json
       - run: npm ci
-      - run: npm test -- --watch=false --browsers=ChromeHeadless
+      - run: npm test -- --watch=false
       - run: npm run build
